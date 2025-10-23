@@ -1,18 +1,18 @@
 # **Az R elemzés használata és értelmezése**
 
-Ez az útmutató elmagyarázza, hogyan használd a student\_analysis.R szkriptet, és mit keress az eredményekben.
+Ez az útmutató elmagyarázza, hogyan használd a elemzes.R szkriptet, és mit keress az eredményekben.
 
 ## **Hogyan használd**
 
-1. **Fájlok mentése:** Helyezd a student\_analysis.R és az 1zt.csv fájlokat **ugyanabba a mappába** a számítógépeden.  
+1. **Fájlok mentése:** Helyezd a elemzes.R és az 1zt.csv fájlokat **ugyanabba a mappába** a számítógépeden.  
 2. **R megnyitása:** Nyisd meg az R környezetet (például az RStudio-t).  
 3. **Munkakönyvtár beállítása:** Állítsd be az R munkamenet munkakönyvtárát (working directory) arra a mappára, ahová a fájlokat mentetted.  
    * RStudio-ban ezt könnyen megteheted: Session \-\> Set Working Directory \-\> To Source File Location.  
 4. **Csomagok telepítése (Csak először):**  
-   * A student\_analysis.R szkriptben keresd meg az install.packages(...) kezdetű sorokat.  
+   * A elemzes.R szkriptben keresd meg az install.packages(...) kezdetű sorokat.  
    * Vedd ki előlük a megjegyzésjelet (a \#-t), és futtasd ezt a két sort.  
    * Ezt csak *egyetlen egyszer* kell megtenned. Utána visszaírhatod a \# jelet.  
-5. **Szkript futtatása:** Futtasd a teljes student\_analysis.R szkriptet. Az eredmények és az ábrák meg fognak jelenni a konzolon és az ábrák panelen (Plots pane).
+5. **Szkript futtatása:** Futtasd a teljes elemzes.R szkriptet. Az eredmények és az ábrák meg fognak jelenni a konzolon és az ábrák panelen (Plots pane).
 
 ## **Hogyan értelmezd az eredményeket**
 
